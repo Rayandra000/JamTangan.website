@@ -1,0 +1,213 @@
+/*? global clearing */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light: #f7f7f7;
+  --dark: #222222;
+  --gap-primary: 16px;
+  --gap-secondary: 8px;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  overflow: hidden;
+  background-color: var(--dark);
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: var(--light);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #222222;
+  color: white;
+}
+
+nav a.active {
+  color: white;
+}
+
+nav .icon {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--gap-primary);
+}
+
+.btn {
+  border: none;
+  padding: var(--gap-secondary);
+  background-color: var(--light);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: tomato;
+  color: var(--light);
+}
+
+.glowingTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glowingTitle 1s ease-in-out infinite alternate;
+}
+
+.swiper {
+  margin-left: initial;
+}
+
+.home__images {
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {
+    display: none;
+  }
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.responsive {
+    position: relative;
+  }
+  nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive .active {
+    text-align: left;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .title-content {
+    margin-top: -1rem;
+  }
+  .title {
+    text-align: center;
+    padding: 0 2rem;
+  }
+  .title-1 {
+    margin-top: 0.8rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  .btn-cta {
+    background-color: #222222;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .btn-cta:hover {
+    background-color: hsl(38, 61%, 73%);
+    color: black;
+    border: 1px solid black;
+  }
+  .star {
+    margin-top: 1rem;
+  }
+  .img-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 0.8rem;
+  }
+  .content-home {
+    display: flex;
+    margin-left: 2rem;
+    gap: 1rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+  .btn-cta-1 {
+    background-color: #222222;
+    color: white;
+    border: none;
+    letter-spacing: 5px;
+    padding: 1rem 1.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: -1.5rem;
+  }
+  .btn-cta-1:hover {
+    color: hsl(38, 61%, 73%);
+  }
+  .text-1 {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .text-1 {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+  .btn-cta-1 {
+    background-color: #222222;
+    color: white;
+    border: none;
+    letter-spacing: 5px;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: -1.5rem;
+  }
+}
+
+@-webkit-keyframes glowingTitle {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
