@@ -184,6 +184,54 @@ nav .icon {
     font-size: 0.8rem;
     font-weight: 400;
   }
+  .content-about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .bg-img-about {
+    padding: 5rem;
+    margin-left: -4rem;
+    padding-bottom: 7rem;
+    background-color: hsl(38, 61%, 73%);
+  }
+  .img-about {
+    position: absolute;
+    top: -1.5rem;
+    margin-left: 3rem;
+  }
+  .content-text-about {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .border-about {
+    border: 1px solid rgb(162, 162, 162);
+    width: 50px;
+    margin-bottom: 0.5rem;
+  }
+  .text1-about {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .text2-about {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .text3-about {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (max-width: 421px) {
