@@ -74,7 +74,7 @@ let testimonialSwiper = new Swiper(".testimonial-swiper", {
 // new
 var newSwiper = new Swiper(".newSwiper", {
   loop: true,
-  spaceBetween: 32,
+  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
