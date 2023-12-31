@@ -334,6 +334,94 @@ nav .icon {
     background-color: hsl(38, 61%, 73%);
     color: black;
   }
+  .container-testi {
+    margin-bottom: 3rem;
+  }
+  .content-testimonial {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .content-testi {
+    padding: 1rem 1.5rem 5rem;
+  }
+  .icon-shop-testimoni {
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #3d3d3d;
+    color: hsl(38, 61%, 73%);
+  }
+  .des-testi {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 1rem 0 0.8rem;
+  }
+  .text-testi {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .img-testi {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .img-testi-content {
+    display: flex;
+  }
+  .text-content-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .text1-testi {
+    color: hsl(38, 61%, 73%);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .text2-testi {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  .testimonial-swiper {
+    margin-left: initial;
+    margin-right: initial;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    content: "";
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: initial;
+    bottom: 2%;
+    width: initial;
+    height: initial;
+    background-color: #3d3d3d;
+    box-shadow: 0 4px 12px hsla(0, 0%, 20%, 0.1);
+    padding: 0.25rem;
+    font-size: 1.5rem;
+    color: hsl(38, 61%, 73%);
+  }
+
+  .swiper-button-next {
+    left: initial;
+    right: 9rem;
+  }
+  .swiper-button-prev {
+    right: initial;
+    left: 9rem;
+  }
 }
 
 @media screen and (max-width: 421px) {

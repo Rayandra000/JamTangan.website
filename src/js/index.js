@@ -60,3 +60,13 @@ const swiperWatches = new Swiper(".home__swiper", {
     clickable: true,
   },
 });
+
+// testi swiper
+let testimonialSwiper = new Swiper(".testimonial-swiper", {
+  loop: true,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
