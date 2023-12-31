@@ -449,7 +449,7 @@ nav .icon {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 340px) and (max-width: 360px) {
   .img-featured {
     margin-left: 5rem;
   }
