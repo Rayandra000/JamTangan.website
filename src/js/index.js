@@ -70,3 +70,13 @@ let testimonialSwiper = new Swiper(".testimonial-swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// new
+var newSwiper = new Swiper(".newSwiper", {
+  loop: true,
+  spaceBetween: 32,
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+});
