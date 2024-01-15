@@ -471,7 +471,7 @@ nav .icon {
   }
   .container-beats {
     background-color: hsl(38, 61%, 73%);
-    margin: 2rem;
+    margin: 6rem 2rem 2rem;
     height: 610px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -574,6 +574,86 @@ nav .icon {
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+  }
+  .contact .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #5c5c5c;
+  }
+
+  .contact .row .map {
+    flex: 1 1 15rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .contact .row form {
+    flex: 1 1 10rem;
+    padding: 2rem 2rem;
+  }
+
+  .contact .row form .input-group {
+    align-items: center;
+    margin: 1rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
+    padding: 0.8rem 0 0 1rem;
+  }
+
+  .contact .row form .input-group input {
+    align-items: center;
+    width: 50%;
+    padding: 0.8rem;
+    font-size: 1.7rem;
+    background: none;
+    color: #fff;
+  }
+
+  .contact .row form .btn {
+    margin: 1rem 0 0 15rem;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--primary);
+    cursor: pointer;
+  }
+  .text-des-kontak {
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .kontak-content {
+    padding: 2rem 1rem;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .kontak-card {
+    padding: 1.5rem 1rem;
+    background-color: #3d3d3d;
+  }
+  .input-group {
+    padding: 1rem 0 0;
+  }
+  .input-kontak {
+    width: 100%;
+    padding: 5px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    border: none;
+  }
+  .btn-kontak {
+    padding: 10px;
+    background: hsl(38, 61%, 73%);
+    border: none;
+    color: black;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
   }
 }
 @media screen and (max-width: 440px) {
