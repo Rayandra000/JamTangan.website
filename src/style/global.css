@@ -681,6 +681,10 @@ nav .icon {
   .border-beats2 {
     margin-left: 17%;
   }
+  .kontak-card {
+    padding: 1.5rem 2rem;
+    background-color: #3d3d3d;
+  }
 }
 @media screen and (max-width: 421px) {
   .text-1 {
