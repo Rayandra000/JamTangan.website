@@ -625,7 +625,7 @@ nav .icon {
     font-weight: 300;
   }
   .kontak-content {
-    padding: 2rem 1rem;
+    padding: 2rem 0.8rem;
     display: grid;
     justify-content: center;
     text-align: center;
