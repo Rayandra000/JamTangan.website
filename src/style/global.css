@@ -655,6 +655,53 @@ nav .icon {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
   }
+  .footer-container {
+    padding: 4rem 1.2rem 2rem;
+  }
+  .footer-content {
+    padding-bottom: 1rem;
+  }
+  .ul-footer {
+    list-style-type: none;
+  }
+  .ul-footer-social {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+  }
+  .title-footer {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .li-footer {
+    padding-bottom: 5px;
+  }
+  .footer-container a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer-container p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #c1c1c1;
+  }
+  .border-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .border-about-footer {
+    width: 90%;
+    border: 1px solid rgb(162, 162, 162);
+    margin-bottom: 0.5rem;
+  }
+  .footer-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem;
+  }
 }
 @media screen and (max-width: 440px) {
   .btn-beats {
