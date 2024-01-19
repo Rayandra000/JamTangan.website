@@ -794,6 +794,10 @@ nav .icon {
   .border-beats2 {
     margin-left: 13%;
   }
+  .kontak-card {
+    padding: 1.5rem 3rem;
+    background-color: #3d3d3d;
+  }
 }
 
 @media screen and (min-width: 340px) and (max-width: 360px) {
@@ -820,6 +824,10 @@ nav .icon {
   }
   .border-beats2 {
     margin-left: 8%;
+  }
+  .kontak-card {
+    padding: 1.5rem 3rem;
+    background-color: #3d3d3d;
   }
 }
 
