@@ -35,6 +35,17 @@ async function showPopup(params) {
   }
 }
 
+const navbarNav = document.querySelector(".navbar-nav");
+const faColor = document.querySelector("#fa-color");
+document.querySelector(".fa-color").onclick = () => {
+  navbarNav.classList.toggle("active");
+  faColor.classList.add("fa-color1");
+};
+const header = document.getElementById("header");
+document.querySelector(".header").onclick = () => {
+  header.classList.add("scrol-navbar");
+};
+
 // swiper
 const swiperWatches = new Swiper(".home__swiper", {
   loop: true,
@@ -80,3 +91,13 @@ var newSwiper = new Swiper(".newSwiper", {
     dynamicBullets: true,
   },
 });
+
+// scroll header bg
+const scrollHeader = () => {
+  const faColor = document.getElementById("fa-color");
+  const header = document.getElementById("header");
+
+  // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
+  this.scrollY >= 50 ? header.classList.add("scrol-navbar") + faColor.classList.add("fa-color1") : header.classList.remove("scrol-navbar") + faColor.classList.remove("fa-color1");
+};
+window.addEventListener("scroll", scrollHeader);
